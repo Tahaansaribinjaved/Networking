@@ -72,7 +72,7 @@ traceroute <destination-ip>
 
 ## 📁 Lab File
 
-[Download Static Routing Lab](Static-Routing.pkt)
+[Download Static Routing Lab](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-01-static-routing/static%20routing.pkt)
 
 ---
 
