@@ -16,7 +16,7 @@ IPv4 Static Routing across a 4-router network.
 
 ## 🌐 Topology
 
-![Network Topology](Day-01-static-routing/static route topology pic.jpeg)
+![Network Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-01-static-routing/static%20route%20topology%20pic.jpeg))
 
 ## 📋 IP Addressing
 
