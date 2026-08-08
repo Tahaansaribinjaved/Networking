@@ -1,88 +1,68 @@
-# Day 07 — Layer 3 Switch Routing
+# Day 07 — Inter‑VLAN Routing (Essentials)
 
-## 📌 Overview
+## Overview
+Simple Packet Tracer lab: enable inter‑VLAN routing on a Cisco 3560 multilayer switch using SVIs to route between VLAN 10 (Engineering) and VLAN 20 (Sales).
 
-A hands-on Cisco Packet Tracer lab focused on **Inter-VLAN Routing using a Cisco 3560 Multilayer Switch**.
+![Topology](topology.png)
 
-The Layer 3 switch performs routing between VLAN 10 and VLAN 20 using **SVIs (Switched Virtual Interfaces)**.
+## VLAN & IP Addressing
 
-## 🎯 What I Built
+| VLAN | Name        | Network          | Gateway         |
+|------|-------------|------------------|-----------------|
+| 10   | Engineering | 192.168.10.0/24  | 192.168.10.1    |
+| 20   | Sales       | 192.168.20.0/24  | 192.168.20.1    |
 
-- Cisco 3560 Multilayer Switch
-- Two Cisco 2960 Access Switches
-- VLAN 10 — Engineering
-- VLAN 20 — Sales
-- Trunk links between switches
-- SVIs for VLAN gateways
-- Inter-VLAN routing
-- End-to-end connectivity testing
+## Key Configuration (copy/paste)
 
-## 🌐 Topology
-
-![Layer 3 Switch Routing Topology](topology.png)
-
-## 📋 VLAN & IP Addressing
-
-| VLAN | Network | Gateway |
-|---|---|---|
-| VLAN 10 | 192.168.10.0/24 | 192.168.10.1 |
-| VLAN 20 | 192.168.20.0/24 | 192.168.20.1 |
-
-## ⚙️ Key Configuration
-
-### Create VLANs
-
+Create VLANs:
 ```cisco
+enable
+configure terminal
 vlan 10
-name HR
-
+ name Engineering
 vlan 20
-name IT
-````
-
-### Configure Access Ports
-
-```cisco
-interface fa0/1
-switchport mode access
-switchport access vlan 10
+ name Sales
+end
+write memory
 ```
 
+Access ports (example):
 ```cisco
-interface fa0/2
-switchport mode access
-switchport access vlan 20
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+!
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 20
 ```
 
-### Configure Trunk
-
+Trunk (example):
 ```cisco
-interface fa0/3
-switchport mode trunk
+interface FastEthernet0/3
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
 ```
 
-### Enable Layer 3 Routing
-
+Enable routing & SVIs (on 3560):
 ```cisco
+enable
+configure terminal
 ip routing
+
+interface Vlan10
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+
+interface Vlan20
+ ip address 192.168.20.1 255.255.255.0
+ no shutdown
+end
+write memory
 ```
 
-### Configure SVI
-
-```cisco
-interface vlan 10
-ip address 192.168.10.1 255.255.255.0
-no shutdown
-```
-
-```cisco
-interface vlan 20
-ip address 192.168.20.1 255.255.255.0
-no shutdown
-```
-
-## 🔍 Verification
-
+## Verification (essential commands)
 ```cisco
 show vlan brief
 show interfaces trunk
@@ -90,34 +70,14 @@ show ip interface brief
 show ip route
 ```
 
-### Connectivity Test
+Quick host tests:
+- From VLAN 10 host: ping 192.168.10.1 (gateway)
+- From VLAN 10 host: ping 192.168.20.101 (other VLAN host)
 
-```text
-PC in VLAN 10 → PC in VLAN 20
-```
+## Troubleshooting (brief)
+- SVIs down: `show ip interface brief` — ensure `no shutdown` and VLAN exists.
+- No routing: ensure `ip routing` is enabled on the multilayer switch.
+- Trunk issues: verify `show interfaces trunk` and allowed VLANs.
 
-```text
-ping 192.168.20.101
-```
-
-✅ VLANs verified
-✅ Trunk links verified
-✅ SVIs configured
-✅ Inter-VLAN routing enabled
-✅ End-to-end connectivity tested
-
-## 🧠 Key Learnings
-
-* How Layer 3 switches perform routing
-* How SVIs act as VLAN gateways
-* Difference between Layer 2 switching and Layer 3 routing
-* How VLANs communicate through a Multilayer Switch
-* How to verify routing and connectivity
-
-## 📁 Lab File
-
-[Layer 3 Switch Routing Lab](inter-vlan-routing-using-layer3-switch.pkt)
-
-## 🛠️ Tools
-
-Cisco Packet Tracer • Cisco IOS • VLAN • SVI • Inter-VLAN Routing
+## Lab file
+- inter-vlan-routing-using-layer3-switch.pkt
