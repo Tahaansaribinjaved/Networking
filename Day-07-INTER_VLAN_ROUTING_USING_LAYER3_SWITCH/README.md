@@ -34,11 +34,11 @@ The Layer 3 switch performs routing between VLAN 10 and VLAN 20 using **SVIs (Sw
 
 ```cisco
 vlan 10
-name HR
+name Engineering
 
 vlan 20
-name IT
-````
+name Sales
+```
 
 ### Configure Access Ports
 
@@ -116,7 +116,7 @@ ping 192.168.20.101
 
 ## 📁 Lab File
 
-[Layer 3 Switch Routing Lab](inter-vlan-routing-using-layer3-switch.pkt)
+[Layer 3 Switch Routing Lab](Layer-3-Switch-Routing.pkt)
 
 ## 🛠️ Tools
 
