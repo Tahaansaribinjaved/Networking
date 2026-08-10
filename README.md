@@ -32,8 +32,8 @@ This repository contains Cisco Packet Tracer lab files (.pkt) and accompanying n
 | 02 | EIGRP | Dynamic routing, neighbor establishment, metrics | [View Day 02](Day-02-EIGRP/) | ![Day 02 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-02-EIGRP/topology.png) |
 | 03 | OSPF | Link-state routing, areas, LSAs | [View Day 03](Day-03-OSPF/) | ![Day 03 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-03-OSPF/topology.png) |
 | 04 | RIP v2 | Distance-vector routing, timers, simple convergence | [View Day 04](Day-04-RIP/) | ![Day 04 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-04-RIP/topolgy.png) |
-| 05 | VLSM + RIP v2 | Subnetting, efficient IP addressing, route summarization | [View Day 05](Day-05-VLSM/) | — |
-| 06 | VLAN | VLANs, access/trunk ports, inter-switch connectivity | [View Day 06](Day-06-VLAN/) | — |
+| 05 | VLSM + RIP v2 | Subnetting, efficient IP addressing, route summarization | [View Day 05](Day-05-VLSM/) |  ![Day 05 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-05-VLSM/topolgy.png) |
+| 06 | VLAN | VLANs, access/trunk ports, inter-switch connectivity | [View Day 06](Day-06-VLAN/) |  ![Day 06 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-06-VLAN/topolgy.png) |
 | 07 | Inter-VLAN Routing (Layer 3 Switch) | SVIs, inter-VLAN routing, gateway of last resort | [View Day 07](Day-07-INTER_VLAN_ROUTING_USING_LAYER3_SWITCH/) | ![Day 07 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-07-INTER_VLAN_ROUTING_USING_LAYER3_SWITCH/topology.png) |
 | 08 | STP vs RSTP | Spanning Tree basics, root bridge election, port states | [View Day 08](Day-08-STP_vs_RSTP/) | ![Day 08 a](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-08-STP_vs_RSTP/af_topology.png) ![Day 08 b](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-08-STP_vs_RSTP/bf_topology.png) |
 
