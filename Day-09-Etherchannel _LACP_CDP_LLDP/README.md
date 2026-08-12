@@ -22,7 +22,9 @@ The lab uses a Cisco switching environment connected to a generic **PT-Switch** 
       SW2               PT-Switch
        |                    |
       PC                  Printer
-````
+```
+
+![Topology](topology.png)
 
 ### Devices
 
@@ -106,17 +108,23 @@ show lldp neighbors detail
 show etherchannel summary
 ```
 
+![EtherChannel verification](etherchannel.png)
+
 ### CDP
 
 ```cisco
 show cdp neighbors detail
 ```
 
+![CDP verification](cdp.png)
+
 ### LLDP
 
 ```cisco
 show lldp neighbors
 ```
+
+![LLDP verification](lldp.png)
 
 ---
 
@@ -149,4 +157,3 @@ This lab provided hands-on practice with:
 * Cisco IOS
 * Cisco Switches
 * PT-Switch
-
