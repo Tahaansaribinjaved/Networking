@@ -16,13 +16,9 @@ The lab contains two scenarios to understand how DHCP works locally and across d
 
 ## 🌐 Scenario 1 — DHCP
 
-```text
-DHCP Server
-     |
-   Switch
-  /  |  \
- PC  PC  Printer
-````
+### Topology
+
+![DHCP Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-10-DHCP%26DHCP_RELAY/DHCP_topology.png)
 
 Clients receive their IP configuration from the DHCP server.
 
@@ -30,17 +26,9 @@ Clients receive their IP configuration from the DHCP server.
 
 ## 🌐 Scenario 2 — DHCP Relay
 
-```text
-Clients
-   |
- Switch
-   |
- Router
-   |
-   |  DHCP Relay
-   |
-Remote DHCP Server
-```
+### Topology
+
+![DHCP Relay Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-10-DHCP%26DHCP_RELAY/DHCP_RELAY_topology.png)
 
 The router forwards DHCP requests from the client network to the remote DHCP server.
 
