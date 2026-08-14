@@ -1,7 +1,7 @@
 # Enterprise Hybrid Switching & Inter-VLAN Routing Capstone Network
 
 ## 📌 Project Overview
-This project demonstrates a multi-tier Enterprise Branch Network designed and simulated in Cisco Packet Tracer. The network integrates advanced Layer 2 redundancy and trunking with Layer 3 Inter-VLAN routing and centralized DHCP services.
+This project demonstrates a multi-tier Enterprise Branch Network designed and simulated in Cisco Packet Tracer. The network integrates advanced Layer 2 redundancy and trunking with Layer 3 Inter-VL[...] 
 
 Built collaboratively as a hands-on project to practice core CCNA concepts including LACP EtherChannel, Rapid PVST+, Router-on-a-Stick, and DHCP Relay functionality.
 
@@ -15,6 +15,15 @@ Built collaboratively as a hands-on project to practice core CCNA concepts inclu
 * **Access Switches:** 2x Cisco 2960 (`acc-switch-1`, `access-switch-2`)
 * **Central Server:** 1x Dedicated DHCP Server (`Server1`)
 * **End Devices:** 6x Workstations distributed across 3 distinct VLANs
+
+
+### Topology Diagram
+
+<p align="center">
+  <img src="./topology.png" alt="Network Topology Diagram" style="max-width:100%;height:auto;">
+</p>
+
+*Figure: Packet Tracer topology used for this lab. Place the topology image at `Day-11-P1_an _small_office _network/topology.png`. If you named the file differently, update the image path above.*
 
 ---
 
