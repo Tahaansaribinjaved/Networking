@@ -23,8 +23,6 @@ Built collaboratively as a hands-on project to practice core CCNA concepts inclu
   <img src="./topology.png" alt="Network Topology Diagram" style="max-width:100%;height:auto;">
 </p>
 
-*Figure: Packet Tracer topology used for this lab. Place the topology image at `Day-11-P1_an _small_office _network/topology.png`. If you named the file differently, update the image path above.*
-
 ---
 
 ## ⚡ Technical Features & Protocols Implemented
