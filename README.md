@@ -25,7 +25,7 @@ This repository contains Cisco Packet Tracer lab files (.pkt) and accompanying n
 
 | Day | Topic | Key Concepts | Link | Topology |
 |-----|-------|--------------|------|----------|
-| 01 | Static Routing | Routing tables, static routes, basic connectivity | [View Day 01](Day-01-static-routing/) | ![Day 01 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-01-static-routing/static route topology pic.jpeg) |
+| 01 | Static Routing | Routing tables, static routes, basic connectivity | [View Day 01](Day-01-static-routing/) | ![Day 01 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-01-static-routing/topology.jpeg) |
 | 02 | EIGRP | Dynamic routing, neighbor establishment, metrics | [View Day 02](Day-02-EIGRP/) | ![Day 02 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-02-EIGRP/topology.png) |
 | 03 | OSPF | Link-state routing, areas, LSAs | [View Day 03](Day-03-OSPF/) | ![Day 03 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-03-OSPF/topology.png) |
 | 04 | RIP v2 | Distance-vector routing, timers, convergence | [View Day 04](Day-04-RIP/) | ![Day 04 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-04-RIP/topolgy.png) |
