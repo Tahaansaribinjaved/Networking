@@ -25,16 +25,16 @@ This repository contains Cisco Packet Tracer lab files (.pkt) and accompanying n
 
 | Day | Topic | Key Concepts | Link | Topology |
 |-----|-------|--------------|------|----------|
-| 01 | Static Routing | Routing tables, static routes, basic connectivity | [View Day 01](Day-01-static-routing/) | ![Day 01 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-01-static-routing/topology.png) |
+| 01 | Static Routing | Routing tables, static routes, basic connectivity | [View Day 01](Day-01-static-routing/) | ![Day 01 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-01-static-routing/static route topology pic.jpeg) |
 | 02 | EIGRP | Dynamic routing, neighbor establishment, metrics | [View Day 02](Day-02-EIGRP/) | ![Day 02 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-02-EIGRP/topology.png) |
 | 03 | OSPF | Link-state routing, areas, LSAs | [View Day 03](Day-03-OSPF/) | ![Day 03 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-03-OSPF/topology.png) |
-| 04 | RIP v2 | Distance-vector routing, timers, convergence | [View Day 04](Day-04-RIP/) | ![Day 04 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-04-RIP/topology.png) |
+| 04 | RIP v2 | Distance-vector routing, timers, convergence | [View Day 04](Day-04-RIP/) | ![Day 04 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-04-RIP/topolgy.png) |
 | 05 | VLSM | Subnetting, efficient IP addressing, route summarization | [View Day 05](Day-05-VLSM/) | ![Day 05 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-05-VLSM/topology.png) |
 | 06 | VLAN | VLANs, access/trunk ports, inter-switch connectivity | [View Day 06](Day-06-VLAN/) | ![Day 06 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-06-VLAN/topology.png) |
 | 07 | Inter-VLAN Routing (Layer 3 Switch) | SVIs, inter-VLAN routing, gateway of last resort | [View Day 07](Day-07-INTER_VLAN_ROUTING_USING_LAYER3_SWITCH/) | ![Day 07 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-07-INTER_VLAN_ROUTING_USING_LAYER3_SWITCH/topology.png) |
-| 08 | STP vs RSTP | Spanning Tree basics, root bridge election, port states | [View Day 08](Day-08-STP_vs_RSTP/) | ![Day 08 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-08-STP_vs_RSTP/topology.png) |
+| 08 | STP vs RSTP | Spanning Tree basics, root bridge election, port states | [View Day 08](Day-08-STP_vs_RSTP/) | ![Day 08 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-08-STP_vs_RSTP/af_topology.png) |
 | 09 | EtherChannel (LACP), CDP & LLDP | Link aggregation, neighbor discovery, port-channels | [View Day 09](Day-09-Etherchannel%20_LACP_CDP_LLDP/) | ![Day 09 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-09-Etherchannel%20_LACP_CDP_LLDP/topology.png) |
-| 10 | DHCP & DHCP Relay | DHCP server, DHCP relay (ip helper-address), client addressing | [View Day 10](Day-10-DHCP%26DHCP_RELAY/) | ![Day 10 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-10-DHCP%26DHCP_RELAY/topology.png) |
+| 10 | DHCP & DHCP Relay | DHCP server, DHCP relay (ip helper-address), client addressing | [View Day 10](Day-10-DHCP%26DHCP_RELAY/) | ![Day 10 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-10-DHCP%26DHCP_RELAY/DHCP_topology.png) |
 | 11 | P1 — Small Office Network | Practical small office topology, addressing & services | [View Day 11](Day-11-P1_an%20_small_office%20_network/) | ![Day 11 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-11-P1_an%20_small_office%20_network/topology.png) |
 | 12 | DNS Server | DNS configuration, name resolution, client setup | [View Day 12](Day-12-DNS_server/) | ![Day 12 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-12-DNS_server/topology.png) |
 | 13 | NTP | Network Time Protocol, clock synchronization | [View Day 13](Day-13-NTP/) | ![Day 13 Topology](https://github.com/Tahaansaribinjaved/Networking/blob/master/Day-13-NTP/topology.png) |
